@@ -16,7 +16,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: #e5e7eb;
+  border-color: currentColor;
   /* 2 */
 }
 
@@ -513,7 +513,49 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.text-9xl {
-  font-size: 8rem;
+.font-inter-bold {
+  font-family: Inter-Bold, sans-serif;
+}
+
+.font-inter-reguler {
+  font-family: Inter-Reguler, sans-serif;
+}
+
+.text-8xl {
+  font-size: 6rem;
   line-height: 1;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-blue-500 {
+  --tw-text-opacity: 1;
+  color: rgb(48 154 252 / var(--tw-text-opacity));
+}
+
+@font-face {
+  font-family: "Inter-Reguler";
+
+  src: url("./assets/fonts/Inter/Inter-Reguler.ttf");
+}
+
+@font-face {
+  font-family: "Inter-Medium";
+
+  src: url("./assets/fonts/Inter/Inter-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Inter-Bold";
+
+  src: url("./assets/fonts/Inter/Inter-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+
+  src: url("./assets/fonts/Montserrat/Montserrat-Bold.ttf");
 }
