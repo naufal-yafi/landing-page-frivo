@@ -513,22 +513,43 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.font-inter-bold {
-  font-family: Inter-Bold, sans-serif;
+.flex {
+  display: flex;
 }
 
-.font-inter-reguler {
-  font-family: Inter-Reguler, sans-serif;
+.items-center {
+  align-items: center;
 }
 
-.text-8xl {
-  font-size: 6rem;
-  line-height: 1;
+.justify-center {
+  justify-content: center;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+
+.bg-neutral-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 247 249 / var(--tw-bg-opacity));
+}
+
+.font-InterReguler {
+  font-family: Inter-Reguler;
+}
+
+.font-InterBold {
+  font-family: Inter-Bold;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-neutral-900 {
+  --tw-text-opacity: 1;
+  color: rgb(52 58 64 / var(--tw-text-opacity));
 }
 
 .text-blue-500 {
@@ -536,26 +557,42 @@ video {
   color: rgb(48 154 252 / var(--tw-text-opacity));
 }
 
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f3f7f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8b99a7;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #343a40;
+}
+
 @font-face {
   font-family: "Inter-Reguler";
 
-  src: url("./assets/fonts/Inter/Inter-Reguler.ttf");
+  src: url("./../../assets/fonts/Inter/Inter-Regular.ttf");
 }
 
 @font-face {
   font-family: "Inter-Medium";
 
-  src: url("./assets/fonts/Inter/Inter-Medium.ttf");
+  src: url("./../../assets/fonts/Inter/Inter-Medium.ttf");
 }
 
 @font-face {
   font-family: "Inter-Bold";
 
-  src: url("./assets/fonts/Inter/Inter-Bold.ttf");
+  src: url("./../../assets/fonts/Inter/Inter-Bold.ttf");
 }
 
 @font-face {
   font-family: "Montserrat-Bold";
 
-  src: url("./assets/fonts/Montserrat/Montserrat-Bold.ttf");
+  src: url("./../../assets/fonts/Montserrat/Montserrat-Bold.ttf");
 }

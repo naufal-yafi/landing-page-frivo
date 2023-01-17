@@ -4,7 +4,10 @@ module.exports = {
   theme: {
     colors: {
       'neutral-900': '#343A40',
+      'neutral-400': '#8B99A7',
+      'neutral-100': "#C6C6C6",
       'neutral-50': '#F3F7F9',
+      'blue-600': '#096ECC',
       'blue-500': '#309AFC',
       'blue-100': '#CCE5F9',
       'orange-500': '#EE831F',
@@ -13,10 +16,10 @@ module.exports = {
       'green-100': '#C5E5CA'
     },
     fontFamily: {
-      'inter-reguler': ['Inter-Reguler', 'sans-serif'],
-      'inter-medium': ['Inter-Medium', 'sans-serif'],
-      'inter-bold': ['Inter-Bold', 'sans-serif'],
-      'montserrat-bold': ['Montserrat-Bold', 'sans-serif']
+      'InterReguler': ['Inter-Reguler'],
+      'InterMedium': ['Inter-Medium'],
+      'InterBold': ['Inter-Bold'],
+      'MontBold': ['Montserrat-Bold']
     },
     extend: {},
   },
