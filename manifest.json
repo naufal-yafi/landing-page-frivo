@@ -1,0 +1,25 @@
+{
+  "short_name": "Frivo",
+  "name": "Landing Page Frivo",
+  "icons": [
+    {
+      "src": "./logo/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "./logo/logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./logo/logo768.png",
+      "type": "image/png",
+      "sizes": "768x768"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#F3F7F9",
+  "background_color": "#F3F7F9"
+}

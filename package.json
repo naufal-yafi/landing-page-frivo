@@ -1,0 +1,23 @@
+{
+  "name": "landing-page-frivo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./configuration.css -o ./assets/css/tailwind.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naufal-yafi/landing-page-frivo.git"
+  },
+  "keywords": [],
+  "author": "Muhammad Naufal Yafi'",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naufal-yafi/landing-page-frivo/issues"
+  },
+  "homepage": "https://github.com/naufal-yafi/landing-page-frivo#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
