@@ -19,6 +19,62 @@
     <title>Frivo</title>
 </head>
 <body class="flex justify-center items-center font-InterReguler text-base text-neutral-900">
-    <p class="font-InterBold text-blue-500">Hello World</p>
+    <header class="fixed top-0 left-0 w-full h-12 lg:h-16 xl:h-20 px-3 lg:px-12 xl:px-28 flex justify-between items-center">
+        <p class="font-InterBold text-neutral-900 tracking-widest text-sm">FRI<span class="text-blue-500">VO</span></p>
+        <button aria-label="click to show menu">
+            <img src="./assets/icons/menu.svg" alt="icon burger menu">
+        </button>
+        <nav class="absolute lg:relative lg:hidden hidden right-3 top-12 w-1/2">
+            <ul class="text-sm text-neutral-400 font-InterMedium">
+                <li class="w-full py-3 hover:text-neutral-900 hover:font-InterBold"><a href="#" aria-label="click to navigate page home">Home</a></li>
+                <li class="w-full py-3 hover:text-neutral-900 hover:font-InterBold"><a href="#" aria-label="click to navigate page why choose us">Why Us</a></li>
+                <li class="w-full py-3 hover:text-neutral-900 hover:font-InterBold"><a href="#" aria-label="click to navigate page testimony">Testimony</a></li>
+                <li>
+                    <a href="#">
+                        <button class="w-full py-3 bg-blue-500 hover:bg-blue-600 text-neutral-50 rounded-lg" aria-label="click to register">Register</button>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <footer class="mt-12 lg:mt-16 xl:mt-20 w-full bg-neutral-900 text-neutral-50 px-3 py-5 lg:px-12 lg:py-14 xl:px-28">
+        <div id="information-group" class="flex flex-col lg:flex-row gap-4 justify-center lg:justify-between">
+            <section class="text-center lg:text-start">
+                <strong class="font-InterBold text-base">Contact</strong>
+                <ul class="font-InterReguler text-sm mt-1">
+                    <li class="cursor-pointer text-xs lg:text-sm text-neutral-100 hover:text-neutral-50">telp : +1972317389</li>
+                    <li class="cursor-pointer text-xs lg:text-sm text-neutral-100 hover:text-neutral-50">telp : +8273827138</li>
+                    <li class="cursor-pointer text-xs lg:text-sm text-neutral-100 hover:text-neutral-50">gmail : frivo@gmail.com</li>
+                </ul>
+            </section>
+            <section class="text-center lg:text-start">
+                <strong class="font-InterBold text-base">Location</strong>
+                <ul class="font-InterReguler text-sm mt-1">
+                    <li class="cursor-pointer text-xs lg:text-sm text-neutral-100 hover:text-neutral-50">St. Turpis Curabitur<br>No. 199 Lorem, Ipsum,</li>
+                    <li class="cursor-pointer text-xs lg:text-sm text-neutral-100 hover:text-neutral-50">Rhoncus, Sodales</li>
+                    <li class="cursor-pointer text-xs lg:text-sm text-neutral-100 hover:text-neutral-50">United States America</li>
+                    <li class="cursor-pointer text-xs lg:text-sm text-neutral-100 hover:text-neutral-50">28748</li>
+                </ul>
+            </section>
+            <section class="text-center lg:text-start">
+                <strong class="font-InterBold text-base">Information</strong>
+                <ul class="font-InterReguler text-sm mt-1">
+                    <li class="cursor-pointer text-xs lg:text-sm text-neutral-100 hover:text-neutral-50"><a href="#">Why Choose Us</a></li>
+                    <li class="cursor-pointer text-xs lg:text-sm text-neutral-100 hover:text-neutral-50"><a href="#">Company Advantage</a></li>
+                    <li class="cursor-pointer text-xs lg:text-sm text-neutral-100 hover:text-neutral-50"><a href="#">Bank Interest</a></li>
+                    <li class="cursor-pointer text-xs lg:text-sm text-neutral-100 hover:text-neutral-50"><a href="#">Service</a></li>
+                </ul>
+            </section>
+        </div>
+
+        <div id="copyright" class="flex flex-col lg:flex-row gap-4 justify-center lg:justify-between mt-4 lg:mt-8">
+            <hgroup class="text-center lg:text-start">
+                <h3 class="font-InterBold text-2xl">FRI<span class="text-blue-500">VO</span></h3>
+                <strong class="font-InterBold text-xs">@2022 All rights reserved. <span class="text-blue-500">Muhammad Naufal Yafi’</span></strong>
+            </hgroup>
+            <button class="w-full lg:w-1/4 bg-orange-500 hover:bg-orange-600 rounded-lg font-InterMedium text-sm px-0 py-2" aria-label="click to register">Register</button>
+        </div>
+    </footer>
 </body>
 </html>

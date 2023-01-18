@@ -10,6 +10,7 @@ module.exports = {
       'blue-600': '#096ECC',
       'blue-500': '#309AFC',
       'blue-100': '#CCE5F9',
+      'orange-600': '#CD6F17',
       'orange-500': '#EE831F',
       'orange-100': '#EBDCCB',
       'green-500': '#11990F',
