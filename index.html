@@ -18,25 +18,39 @@
 
     <title>Frivo</title>
 </head>
-<body class="flex justify-center items-center font-InterReguler text-base text-neutral-900">
-    <header class="fixed top-0 left-0 w-full h-12 lg:h-16 xl:h-20 px-3 lg:px-12 xl:px-28 flex justify-between items-center">
+<body class="flex flex-col justify-center items-center font-InterReguler text-base text-neutral-900">
+    <header class="fixed top-0 left-0 w-full h-12 lg:h-16 xl:h-20 px-3 lg:px-12 xl:px-28 flex justify-between items-center bg-neutral-50">
         <p class="font-InterBold text-neutral-900 tracking-widest text-sm lg:text-lg">FRI<span class="text-blue-500">VO</span></p>
         <button class="lg:hidden" aria-label="click to show menu">
             <img src="./assets/icons/menu.svg" alt="icon burger menu">
         </button>
         <nav class="absolute lg:relative lg:block hidden right-0 lg:right-0 top-12 lg:top-0 w-1/2 bg-neutral-50 px-3 lg:px-0 py-4 lg:py-0 rounded-b-lg">
-            <ul class="text-sm text-neutral-400 font-InterMedium flex flex-col lg:flex-row lg:justify-end">
-                <li class="w-full lg:w-auto lg:px-4 py-3  hover:text-neutral-900 hover:font-InterBold text-neutral-900"><a href="#" aria-label="click to navigate page home">Home</a></li>
-                <li class="w-full lg:w-auto lg:px-4 py-3 hover:text-neutral-900 hover:font-InterBold"><a href="#" aria-label="click to navigate page why choose us">Why Us</a></li>
-                <li class="w-full lg:w-auto lg:px-4 py-3 hover:text-neutral-900 hover:font-InterBold"><a href="#" aria-label="click to navigate page testimony">Testimony</a></li>
+            <ul class="text-sm text-neutral-400 font-InterMedium flex flex-col lg:flex-row lg:justify-end lg:gap-4">
+                <li class="w-full lg:w-auto lg:px-8 py-3  hover:text-neutral-900 hover:font-InterBold text-neutral-900"><a href="#" aria-label="click to navigate page home">Home</a></li>
+                <li class="w-full lg:w-auto lg:px-8 py-3 hover:text-neutral-900 hover:font-InterBold"><a href="#" aria-label="click to navigate page why choose us">Why Us</a></li>
+                <li class="w-full lg:w-auto lg:px-8 py-3 hover:text-neutral-900 hover:font-InterBold"><a href="#" aria-label="click to navigate page testimony">Testimony</a></li>
                 <li>
                     <a href="#">
-                        <button class="w-full lg:w-auto lg:px-4 py-3 bg-blue-500 hover:bg-blue-600 text-neutral-50 rounded-lg" aria-label="click to register">Register</button>
+                        <button class="w-full lg:w-auto lg:px-8 py-3 bg-blue-500 hover:bg-blue-600 text-neutral-50 rounded-lg" aria-label="click to register">Register</button>
                     </a>
                 </li>
             </ul>
         </nav>
     </header>
+
+    <main class="mt-20 lg:mt-24 xl:mt-28 w-full flex flex-col-reverse items-center lg:flex-row px-3 lg:px-12 xl:px-28">
+        <div id="container">
+            <hgroup class="text-neutral-900">
+                <h1 class="font-InterBold text-2xl">A <strong class="text-blue-500">Trusted</strong> Place To Borrow Money</h1>
+                <p class="mt-2 mb-5 text-neutral-800 text-sm">A safe online money lending place and under scrutiny by the authorities. You can borrow money at a low interest rate.</p>
+            </hgroup>
+            <div id="btn-group" class="flex flex-col lg:flex-row">
+                <button id="primary" class="font-InterMedium  bg-orange-500 hover:bg-orange-600 text-neutral-50 rounded-lg py-3 mb-4" aria-label="click to register">Register Now</button>
+                <button id="secondary" class="py-2 border-solid border-2 border-neutral-900 rounded-lg" aria-label="click to see testimony">Testimony</button>
+            </div>
+        </div>
+        <img src="./assets/images/wallet.webp" alt="3D image wallet" class="w-1/2 lg:w1/3">
+    </main>
 
     <footer class="mt-12 lg:mt-16 xl:mt-20 w-full bg-neutral-900 text-neutral-50 px-3 py-5 lg:px-12 lg:py-14 xl:px-28">
         <div id="information-group" class="flex flex-col lg:flex-row gap-4 justify-center lg:justify-between">

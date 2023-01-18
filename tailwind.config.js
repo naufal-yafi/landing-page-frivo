@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     colors: {
       'neutral-900': '#343A40',
+      'neutral-800': '#515559',
       'neutral-400': '#8B99A7',
       'neutral-100': "#C6C6C6",
       'neutral-50': '#F3F7F9',
