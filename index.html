@@ -27,8 +27,7 @@
 </head>
 
 <body class="flex flex-col justify-center items-center font-Inter text-base text-neutral-900 bg-neutral-50">
-    <header
-        class="fixed top-0 left-0 w-full h-12 lg:h-16 xl:h-20 px-3 lg:px-12 xl:px-28 flex justify-between items-center bg-neutral-50">
+    <header class="fixed z-50 top-0 left-0 w-full h-12 lg:h-16 xl:h-20 px-3 lg:px-12 xl:px-28 flex justify-between items-center bg-neutral-50">
         <p id="logo" class="font-Inter font-bold text-neutral-900 tracking-widest text-sm lg:text-lg">FRI<span
                 class="text-blue-600">VO</span></p>
         <button id="btn-menu" class="lg:hidden" aria-label="click to show menu">
@@ -55,11 +54,10 @@
         </nav>
     </header>
 
-    <main
-        class="mt-20 lg:mt-24 xl:mt-28 w-full flex flex-col-reverse items-center lg:flex-row lg:justify-around px-3 lg:px-12 xl:px-28">
+    <main id="home" class="mt-20 lg:mt-24 xl:mt-28 w-full flex flex-col-reverse items-center lg:flex-row lg:justify-around px-3 lg:px-12 xl:px-28">
         <div id="container">
-            <hgroup class="text-neutral-900 lg:w-3/4">
-                <h1 class="font-Inter font-bold text-3xl lg:text-8xl sm:text-5xl">A <strong class="text-blue-600">Trusted</strong>
+            <hgroup class="text-neutral-900 xl:w-3/4">
+                <h1 class="font-Inter font-bold text-3xl 2xl:text-8xl md:text-7xl sm:text-5xl">A <strong class="text-blue-600">Trusted</strong>
                     Place To
                     Borrow Money</h1>
                 <p class="mt-5 mb-8 text-neutral-800 text-sm lg:text-lg">A safe online money lending place and under
@@ -76,14 +74,14 @@
             </div>
         </div>
         <img src="./assets/images/wallet/wallet-small.webp" alt="3D image wallet" layout="responsive" width="300px"
-            height="300px" class="lg:w-1/2"
+            height="300px" class="xl:w-1/2"
             srcset="./assets/images/wallet/wallet-small.webp 300w, ./assets/images/wallet/wallet-medium.webp 768w, ./assets/images/wallet/wallet-large.webp 1280w">
     </main>
 
-    <section id="why=us" class="w-full px-3 lg:px-12 xl:px-28 mt-14 lg:mt-16 xl:mt-20">
+    <section id="why-us" class="w-full px-3 lg:px-12 xl:px-28 mt-14 lg:mt-16 xl:mt-20">
         <article>
             <hgroup>
-                <h1 class="font-Inter font-bold text-2xl lg:text-4xl text-center">Why Choose Us?</h1>
+                <h1 class="font-bold text-2xl lg:text-4xl text-center">Why Choose Us?</h1>
                 <p class="mt-2 lg:mt-5 mb-5 lg:mb-8 text-neutral-800 text-sm lg:text-lg lg:text-center">By borrowing money from us, you can achieve your financial goals faster, because of our good service and ready to help
                 you at any time as well as a fast and easy lending process.</p>
             </hgroup>
@@ -113,7 +111,44 @@
         </div>
     </section>
 
-    <footer class="mt-12 lg:mt-16 xl:mt-20 w-full bg-neutral-900 text-neutral-50 px-3 py-5 lg:px-12 lg:py-14 xl:px-28">
+    <section id="interest" class="w-full px-3 lg:px-12 xl:px-28 mt-20 lg:mt-32 flex justify-center items-end">
+        <div id="bg" class="w-full h-64 lg:h-60 bg-blue-100 rounded-lg"></div>
+        <div id="container" class="absolute flex flex-col lg:flex-row justify-end lg:justify-center items-center lg:items-end">
+            <img src="./assets/images/bank/bank-small.webp" alt="3D image bank" layout="responsive" width="220px" height="220px" class="lg:w-1/3" srcset="./assets/images/bank/bank-small.webp 300w, ./assets/images/bank/bank-medium.webp 760w, ./assets/images/bank/bank-large.webp 1280w">
+            <hgroup class="flex flex-row items-center gap-4 mt-2 mb-6 lg:items-center">
+                <h1 class="font-bold text-6xl lg:text-9xl text-blue-600">5%</h1>
+                <p class="font-medium text-neutral-900 text-base lg:text-xl">bank<br>interest</p>
+            </hgroup>
+        </div>
+    </section>
+
+    <section id="service" class="w-full px-3 lg:px-12 xl:px-28 mt-16 lg:mt-20 flex flex-col lg:flex-row items-center lg:justify-around">
+        <img src="./assets/images/person/person-small.webp" alt="3D image person" width="250px" height="250px" class="lg:w-80" srcset="./assets/images/person/person-small.webp 300w, ./assets/images/person/person-medium.webp 768w, ./assets/images/person/person-large.webp 1280w">
+        <div id="group" class="lg:w-1/2">
+            <hgroup>
+                <h1 class="font-bold text-2xl lg:text-4xl text-center lg:text-start mt-4">Your Trust is Our Responsibility</h1>
+                <p class="mt-2 lg:mt-5 mb-5 lg:mb-8 text-neutral-800 text-sm lg:text-lg lg:text-start">By borrowing from us, you can easily achieve your financial goals, be it buying the goods you want, recouping unexpected
+                costs, or even investing your funds to get bigger profits</p>
+            </hgroup>
+            <button class="bg-blue-600 hover:bg-blue-500 text-neutral-50 py-3 lg:py-4 w-full rounded-lg lg:w-44" aria-label="click to register">Register Now</button>
+        </div>
+    </section>
+
+    <section id="cta" class="w-full flex justify-center items-end mt-24 lg:mt-36">
+        <div id="bg" class="w-full h-80 bg-blue-100"></div>
+        <div id="group" class="absolute flex flex-col lg:flex-row lg:justify-center lg:items-end items-center mb-4 px-3 lg:px-0">
+            <img src="./assets/images/sack/sack-small.webp" alt="3D image sack" width="140px" height="140px" class="lg:w-96" srcset="./assets/images/sack/sack-small.webp 300w, ./assets/images/sack/sack-medium.webp 768w, ./assets/images/sack/sack-large.webp 1280w">
+            <div id="group" class="lg:w-1/2 lg:mb-6">
+                <hgroup>
+                    <h1 class="font-bold text-2xl lg:text-4xl text-start lg:text-start mt-4 sm:text-center">Borrow Money Only on FRI<span class="text-blue-600">VO</span></h1>
+                    <p class="mt-2 lg:mt-5 mb-5 lg:mb-8 text-neutral-800 text-sm lg:text-lg lg:text-start">All activities are recorded properly and honestly. Employees who have the discipline and foresight in reading the data in the system.</p>
+                </hgroup>
+                <button class="bg-blue-600 hover:bg-blue-500 text-neutral-50 w-full rounded-lg py-4" aria-label="click to register">Register Now</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="w-full bg-neutral-900 text-neutral-50 px-3 py-5 lg:px-16 lg:py-14 xl:px-28">
         <div id="information-group" class="flex flex-col lg:flex-row gap-4 justify-center lg:justify-between">
             <section class="text-center lg:text-start">
                 <strong class="font-Inter font-bold text-base lg:text-xl">Contact</strong>
@@ -156,7 +191,7 @@
         <div id="copyright" class="flex flex-col lg:flex-row gap-4 justify-center lg:justify-between mt-4 lg:mt-8">
             <hgroup class="text-center lg:text-start">
                 <h1 class="font-Inter font-bold text-2xl">FRI<span class="text-neutral-100">VO</span></h1>
-                <strong class="font-Inter font-bold text-xs">@2022 All rights reserved. <span
+                <strong class="font-Inter font-bold text-xs text-neutral-100">@2022 All rights reserved. <span
                         class="text-neutral-50">Muhammad Naufal Yafi’</span></strong>
             </hgroup>
             <button
