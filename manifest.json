@@ -1,25 +1,58 @@
 {
+  "lang": "en",
+  "dir": "ltr",
+  "name": "Frivo: Trusted places to borrow money",
   "short_name": "Frivo",
-  "name": "Landing Page Frivo",
   "icons": [
     {
-      "src": "./logo/favicon.ico",
+      "src": "./assets/logo/favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "type": "image/x-icon",
+      "purpose": "any maskable"
     },
     {
-      "src": "./logo/logo192.png",
+      "src": "./assets/logo/logo192.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose": "any maskable"
     },
     {
-      "src": "./logo/logo768.png",
+      "src": "./assets/logo/logo512.png",
       "type": "image/png",
-      "sizes": "768x768"
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
   ],
+  "id": ".",
   "start_url": ".",
+  "scope": "/",
   "display": "standalone",
-  "theme_color": "#F3F7F9",
-  "background_color": "#F3F7F9"
+  "orientation": "landscape",
+  "theme_color": "#309AFC",
+  "background_color": "#F3F7F9",
+  "shortcuts": [
+    {
+      "name": "Where is the trusted place to borrow money",
+      "short_name": "Frivo",
+      "description": "Our Service Information",
+      "url": "/",
+      "icons": [{"src": "./assets/logo/logo192.png", "size": "192x192"}]
+    }
+  ],
+  "description": "Our Service Information",
+  "screenshots": [
+    {
+      "src": "./assets/images/human.webp",
+      "type": "webp",
+      "sizes": "704x708",
+      "form_factor": "narrow"
+    }
+  ],
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "platform": "google",
+      "id": "."
+    }
+  ]
 }
