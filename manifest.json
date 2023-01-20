@@ -24,7 +24,7 @@
     }
   ],
   "id": ".",
-  "start_url": ".",
+  "start_url": "https://naufal-yafi.github.io/landing-page-frivo/",
   "scope": "/",
   "display": "standalone",
   "orientation": "landscape",
@@ -52,7 +52,7 @@
   "related_applications": [
     {
       "platform": "google",
-      "id": "."
+      "id": "github.com"
     }
   ]
 }
