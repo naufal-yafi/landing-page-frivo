@@ -23,7 +23,6 @@
       "purpose": "any maskable"
     }
   ],
-  "id": ".",
   "start_url": "https://naufal-yafi.github.io/landing-page-frivo/",
   "scope": "/",
   "display": "standalone",
@@ -35,7 +34,7 @@
       "name": "Where is the trusted place to borrow money",
       "short_name": "Frivo",
       "description": "Our Service Information",
-      "url": "/",
+      "url": "https://naufal-yafi.github.io/landing-page-frivo/#why-us",
       "icons": [{"src": "./assets/logo/logo192.png", "size": "192x192"}]
     }
   ],
