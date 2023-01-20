@@ -3,10 +3,12 @@ self.addEventListener("install", e => e.waitUntil(
     caches.open("static").then(cache => {
         return cache.addAll([
             "./", 
+            "./index.html",
+            "./index.js",
             "./dist/css/style.css", 
-            "./assets/images/wallet/wallet-large.webp",
-            "./assets/images/wallet/wallet-medium.webp",
-            "./assets/images/wallet/wallet-small.webp",
+            "./dist/js/script.js", 
+            "./assets/images/bank/bank-large.webp",
+            "./assets/images/bank/bank-small.webp",
         ])
     }
 )))
