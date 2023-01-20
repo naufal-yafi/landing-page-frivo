@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="./build/style/output.css">
 
     <title>Frivo</title>
+
+    <script src="./index.js" defer></script>
 </head>
 
 <body class="flex flex-col justify-center items-center font-Inter text-base text-neutral-900 bg-neutral-50">
@@ -37,11 +39,11 @@
             class="absolute lg:relative lg:block hidden right-0 lg:right-0 top-12 lg:top-0 w-1/2 bg-neutral-50 px-3 lg:px-0 py-4 lg:py-0 rounded-b-lg">
             <ul
                 class="text-sm text-neutral-800 font-Inter font-medium flex flex-col lg:flex-row lg:justify-end lg:gap-4">
-                <li class="w-full lg:w-auto lg:px-8 py-3 font-bold text-neutral-900"><a href="#"
+                <li class="w-full lg:w-auto lg:px-8 py-3 hover:text-neutral-900 hover:font-bold text-neutral-900"><a href="#"
                         aria-label="click to navigate page home">Home</a></li>
-                <li class="w-full lg:w-auto lg:px-8 py-3 hover:text-neutral-900 hover:font-bold"><a href="#"
+                <li class="w-full lg:w-auto lg:px-8 py-3 hover:text-neutral-900 hover:font-bold"><a href="#why-us"
                         aria-label="click to navigate page why choose us">Why Us</a></li>
-                <li class="w-full lg:w-auto lg:px-8 py-3 hover:text-neutral-900 hover:font-bold"><a href="#"
+                <li class="w-full lg:w-auto lg:px-8 py-3 hover:text-neutral-900 hover:font-bold"><a href="#testi"
                         aria-label="click to navigate page testimony">Testimony</a></li>
                 <li>
                     <a href="#">
@@ -134,6 +136,36 @@
         </div>
     </section>
 
+    <section id="testi" class="w-full mt-14 flex flex-col justify-center lg:mt-16 xl:mt-20 px-3 lg:px-12 xl:px-28">
+        <h1 class="font-bold text-2xl lg:text-6xl md:text-4xl text-center">Testimony</h1>
+        <div id="card-testimony" class="flex justify-around mt-6 lg:mt-12">
+            <button id="previous" aria-label="click to see previous feedback customer">
+                <img src="./assets/icons/arrow-left-circle.svg" alt="icon arrow right" width="35px" height="35px">
+            </button>
+            <figure class="w-2/3 h-80 lg:h-44 sm:h-60 bg-blue-50 rounded-lg px-6 py-6">
+                <div id="profile-group" class="flex items-center">
+                    <div id="photo-profile">no porphilous photos</div>
+                    <div id="desc" class="flex flex-col ml-3">
+                        <strong id="name" class="font-bold text-lg">no username</strong>
+                        <p id="job" class="text-sm text-blue-600">not writing his work</p>
+                    </div>
+                </div>
+                <article id="testimony" class="mt-4 text-neutral-800 cursor-text">not writing reviews</article>
+            </figure>
+            <button id="next" aria-label="click to see next feedback customer">
+                <img src="./assets/icons/arrow-right-circle.svg" alt="icon arrow right" width="35px" height="35px">
+            </button>
+        </div>
+        <div id="pagination" class="flex justify-center gap-3 mt-5">
+            <div class="page pg1 rounded-full cursor-pointer"></div>
+            <div class="page pg2 rounded-full cursor-pointer"></div>
+            <div class="page pg3 rounded-full cursor-pointer"></div>
+            <div class="page pg4 rounded-full cursor-pointer"></div>
+            <div class="page pg5 rounded-full cursor-pointer"></div>
+            <div class="page pg6 rounded-full cursor-pointer"></div>
+        </div>
+    </section>
+
     <section id="cta" class="w-full flex justify-center items-end mt-24 lg:mt-36">
         <div id="bg" class="w-full h-80 bg-blue-100"></div>
         <div id="group" class="absolute flex flex-col lg:flex-row lg:justify-center lg:items-end items-center mb-4 px-3 lg:px-0">
@@ -195,7 +227,7 @@
                         class="text-neutral-50">Muhammad Naufal Yafi’</span></strong>
             </hgroup>
             <button
-                class="w-full lg:w-1/4 bg-blue-600 hover:bg-blue-500 rounded-lg font-Inter font-medium text-sm px-0 py-2"
+                class="w-full lg:w-1/4 bg-blue-600 hover:bg-blue-500 rounded-lg font-Inter font-medium text-sm px-0 py-2 md:py-4 lg:py-0"
                 aria-label="click to register">Register Now</button>
         </div>
     </footer>
