@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/landing-page-frivo/static/css/main.b73f2c6c.css",
-    "main.js": "/landing-page-frivo/static/js/main.ac8ac00b.js",
+    "main.css": "/landing-page-frivo/static/css/main.b471b7c6.css",
+    "main.js": "/landing-page-frivo/static/js/main.99b67f30.js",
     "static/media/wallet-large.webp": "/landing-page-frivo/static/media/wallet-large.9f67c790044bd8aae493.webp",
     "static/media/person-large.webp": "/landing-page-frivo/static/media/person-large.245e9a4a639e085b9efb.webp",
     "static/media/wallet-medium.webp": "/landing-page-frivo/static/media/wallet-medium.5c8410d18d43d7f7fb0d.webp",
@@ -19,11 +19,11 @@
     "static/media/dollar-sign.svg": "/landing-page-frivo/static/media/dollar-sign.2c3bd62503b3b90406dd54123ba892a3.svg",
     "static/media/menu.svg": "/landing-page-frivo/static/media/menu.cb13cfdba10814d6ed8dcccb0e5db905.svg",
     "static/media/shield.svg": "/landing-page-frivo/static/media/shield.3d147fd708a1d6f80a3a4fbf293c4fbd.svg",
-    "main.b73f2c6c.css.map": "/landing-page-frivo/static/css/main.b73f2c6c.css.map",
-    "main.ac8ac00b.js.map": "/landing-page-frivo/static/js/main.ac8ac00b.js.map"
+    "main.b471b7c6.css.map": "/landing-page-frivo/static/css/main.b471b7c6.css.map",
+    "main.99b67f30.js.map": "/landing-page-frivo/static/js/main.99b67f30.js.map"
   },
   "entrypoints": [
-    "static/css/main.b73f2c6c.css",
-    "static/js/main.ac8ac00b.js"
+    "static/css/main.b471b7c6.css",
+    "static/js/main.99b67f30.js"
   ]
 }
