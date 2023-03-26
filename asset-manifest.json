@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/landing-page-frivo/static/css/main.b73f2c6c.css",
+    "main.js": "/landing-page-frivo/static/js/main.ac8ac00b.js",
+    "static/media/wallet-large.webp": "/landing-page-frivo/static/media/wallet-large.9f67c790044bd8aae493.webp",
+    "static/media/person-large.webp": "/landing-page-frivo/static/media/person-large.245e9a4a639e085b9efb.webp",
+    "static/media/wallet-medium.webp": "/landing-page-frivo/static/media/wallet-medium.5c8410d18d43d7f7fb0d.webp",
+    "static/media/person-medium.webp": "/landing-page-frivo/static/media/person-medium.97ccedb6fb18cfe743c3.webp",
+    "static/media/bank-large.webp": "/landing-page-frivo/static/media/bank-large.28abf8a792f718aeed37.webp",
+    "static/media/bank-medium.webp": "/landing-page-frivo/static/media/bank-medium.1951b22f71afa2360a10.webp",
+    "static/media/sack-large.webp": "/landing-page-frivo/static/media/sack-large.ad5e422109cee04ef959.webp",
+    "static/media/wallet-small.webp": "/landing-page-frivo/static/media/wallet-small.ef2c21684b2153831e01.webp",
+    "static/media/person-small.webp": "/landing-page-frivo/static/media/person-small.6e2a933d2e94d1bdeb5b.webp",
+    "static/media/sack-medium.webp": "/landing-page-frivo/static/media/sack-medium.c2113057496454a732ef.webp",
+    "static/media/bank-small.webp": "/landing-page-frivo/static/media/bank-small.3b5a5727183235bf55be.webp",
+    "static/media/sack-small.webp": "/landing-page-frivo/static/media/sack-small.9a7df75bbba0a2181727.webp",
+    "index.html": "/landing-page-frivo/index.html",
+    "static/media/clock.svg": "/landing-page-frivo/static/media/clock.30d3d1acf25602f17d928a0b4e3eed11.svg",
+    "static/media/dollar-sign.svg": "/landing-page-frivo/static/media/dollar-sign.2c3bd62503b3b90406dd54123ba892a3.svg",
+    "static/media/menu.svg": "/landing-page-frivo/static/media/menu.cb13cfdba10814d6ed8dcccb0e5db905.svg",
+    "static/media/shield.svg": "/landing-page-frivo/static/media/shield.3d147fd708a1d6f80a3a4fbf293c4fbd.svg",
+    "main.b73f2c6c.css.map": "/landing-page-frivo/static/css/main.b73f2c6c.css.map",
+    "main.ac8ac00b.js.map": "/landing-page-frivo/static/js/main.ac8ac00b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b73f2c6c.css",
+    "static/js/main.ac8ac00b.js"
+  ]
+}
